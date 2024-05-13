@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablas</title>
+
+    <style>
+        table, tr, td, th{
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+
+<!--Cree una tabla para visualizar la  información de los diferentes congresos (emplee etiquetas semánticas de tablas)-->
+<!--Elimine las siglas CPAR, y 'Campus Party' debe ocupar 2 celdas-->
+<!--Como campus party y Jaiio comparten el mismo lugar, unifique las celdas que contienen 'Buenos Aires'-->
+<body>
+<table>   
+    <thead>
+    <th>Siglas</th>
+    <th> o Evento</th>
+    <th>Carrera</th>
+    <th>Web</th>
+    <th>Lugar</th>
+    <th>Fecha</th>
+</thead>
+<tbody>
+    <td colspan="2">Campus Party</td>           <!--colspan es para que te agarre tantas columnas en este caso 2 columnas-->
+    <td>Computación/Sistemas</td>
+    <td><a href="http://argentina.campus-party.org/" target="_blank">//argentina.campus-party.org/</a></td>         <!--el target es para que te lleve a otra pagina nueva sin sacarte de esa-->
+    <td rowspan="2">Buenos Aires</td>           <!--rowspan si no estoy confundido es para que te agarre las filas que quieras en este caso 2 filas-->
+    <td>25-abr al 28-abr</td>
+    
+<tr>
+    <td>JAIIO</td>
+    <td>Jornadas Argentinas de Informática</td>     <!--tr son las filas-->   
+    <td>Computación/Sistemas</td>
+    <td><a href="http://47jaiio.sadio.org.ar">//47jaiio.sadio.org.ar</a></td>
+    <td>3-sep al 7-sep</td>
+</tr>
+<tr>
+    <td>WICC</td>
+    <td>Workshop de Investigadores en Ciencias de la Computación</td>
+    <td>Computación/Sistemas</td>
+    <td><a href="http://wicc2018.unne.edu.ar/">//wicc2018.unne.edu.ar/</a></td>
+    <td>Corrientes</td>
+    <td>18-mar al 27-abr</td>
+</tr>
+</tbody>
+</table> 
+</body>
+</html>
