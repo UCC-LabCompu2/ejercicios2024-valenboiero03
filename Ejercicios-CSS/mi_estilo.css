@@ -1,0 +1,24 @@
+body{
+            
+    text-align: center;
+    font-family: "gugi", cursive;
+    background: linear-gradient(to right, #720291,#ffffff);
+}
+div{
+    border: 2px dashed rgb(12, 5, 82);
+    margin: 10px;
+    padding: 5px 30px;
+    border-radius: 15px;
+    box-shadow: 10px 12px #d332ff;
+}
+#principal{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+}
+div h3{
+    font-family: "Titan One", sans-serif;
+    text-shadow: 1px 2px rgb(234, 250, 117);
+    
+}
